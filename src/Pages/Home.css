@@ -1,0 +1,44 @@
+.home-container {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url('../Assets/img/bg.jpg');
+  min-height: 660px;
+}
+
+.home-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.home-banner img {
+  width: 500px;
+  margin-right: 120px;
+}
+
+.home-upload {
+  width: 500px;
+  border: 1px dashed black;
+  border-radius: 20px;
+}
+
+.home-upload__title {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 32px;
+  color: white;
+  text-shadow: 0.2px 0.9px black;
+}
+
+.home-example {
+  width: 400px;
+  margin: 0 50px 50px 50px;
+}
+
+.home-example img {
+  width: 100px;
+  margin: 0 10px 0 10px;
+}
